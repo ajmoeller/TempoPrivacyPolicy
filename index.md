@@ -12,9 +12,12 @@ Tempo: Coffee Timer is a standalone application that respects your privacy. We d
 - No analytics or tracking is implemented
 
 ## App Permissions
-The app requires only the following permissions:
+The app requires the following permissions:
 - Wake Lock: To keep the screen on during brewing
-- Storage: To save your custom recipes locally on your device
+- Billing: For in-app purchases (remove ads feature)
+- Background Processing: To maintain timer functionality when the app is in the background
+- Internet: For displaying advertisements
+- Storage: To save your custom recipes locally on your device (implicit permission)
 
 ## Data Storage
 All data (including custom recipes and settings) is:
